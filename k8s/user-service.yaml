@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
         - name: user-service
-          image: vipinde/user-service:latest
+          image: vasssiim/k8s-auth-user:1
           imagePullPolicy: IfNotPresent
           env:
             - name: MONGO_URL
