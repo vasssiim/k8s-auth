@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
         - name: web-frontend
-          image: vipinde/web-frontend:latest
+          image: vasssiim/k8s-auth-web:1
           ports:
             - containerPort: 80
 ---
