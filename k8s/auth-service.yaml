@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
         - name: auth-service
-          image: vipinde/auth-service:latest
+          image: vasssiim/k8s-auth-auth:1
           imagePullPolicy: IfNotPresent
           env:
             - name: USER_SERVICE_URL
